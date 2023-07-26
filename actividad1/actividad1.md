@@ -5,7 +5,7 @@ Un **kernel** es la parte central de un sistema operativo que actúa como interm
 ### 1. Kernel Monolítico
 El **kernel monolítico** es el tipo más antiguo y simple de kernel. En este enfoque, todas las funciones y servicios del sistema operativo se ejecutan en un solo espacio de memoria y en modo privilegiado. Esto significa que todos los controladores de dispositivos, la gestión de memoria, el sistema de archivos y otros componentes están incluidos en un único núcleo ejecutable. Las ventajas del kernel monolítico incluyen un alto rendimiento y una baja latencia, ya que no hay gastos generales de comunicación entre módulos. Sin embargo, una desventaja es que un error en cualquier componente puede afectar todo el sistema.
 
-[img1]: https://www.researchgate.net/publication/283507037/figure/fig2/AS:376309994803201@1466730702416/Figura-2-Sistema-basado-kernel-monolitico-y-microkernel-Tomada-de.png
+[img1]: img1.png
 
 ### 2. Kernel Microkernel
 El **kernel microkernel** adopta un enfoque minimalista al trasladar la mayoría de los servicios y procesos del sistema operativo fuera del kernel principal. En su lugar, solo se implementan las funciones esenciales, como la gestión de memoria y la comunicación entre procesos. El resto de los servicios se ejecutan en el espacio del usuario, lo que proporciona un entorno más seguro y robusto. La ventaja clave del kernel microkernel es su alta modularidad, lo que facilita la extensibilidad y el mantenimiento del sistema. Sin embargo, debido a que las interacciones entre módulos se realizan a través de mensajes, puede haber una pérdida de rendimiento comparado con el kernel monolítico.
