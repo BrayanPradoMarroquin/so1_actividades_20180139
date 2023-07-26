@@ -10,6 +10,8 @@ El **kernel monolítico** es el tipo más antiguo y simple de kernel. En este en
 ### 2. Kernel Microkernel
 El **kernel microkernel** adopta un enfoque minimalista al trasladar la mayoría de los servicios y procesos del sistema operativo fuera del kernel principal. En su lugar, solo se implementan las funciones esenciales, como la gestión de memoria y la comunicación entre procesos. El resto de los servicios se ejecutan en el espacio del usuario, lo que proporciona un entorno más seguro y robusto. La ventaja clave del kernel microkernel es su alta modularidad, lo que facilita la extensibilidad y el mantenimiento del sistema. Sin embargo, debido a que las interacciones entre módulos se realizan a través de mensajes, puede haber una pérdida de rendimiento comparado con el kernel monolítico.
 
+![MicroKernel](Microkernel-Vs-Monolithic-Kernel.jpg)
+
 ### 3. Kernel Híbrido
 El **kernel híbrido** busca combinar características del kernel monolítico y del microkernel. En este enfoque, algunas funciones cruciales permanecen en el espacio del kernel, mientras que otras se ejecutan en el espacio del usuario como procesos. Esto permite un mejor equilibrio entre el rendimiento y la modularidad. Un ejemplo de un kernel híbrido es el **kernel de Windows**, que proporciona una capa de abstracción llamada **Executive** que maneja ciertos servicios en modo kernel, mientras que otros componentes se ejecutan en modo usuario.
 
