@@ -21,6 +21,8 @@ El **kernel híbrido** busca combinar características del kernel monolítico y 
 
 Cada tipo de kernel tiene sus pros y contras, y la elección del tipo depende de los requisitos específicos del sistema operativo y del hardware en el que se ejecutará. La evolución de los sistemas operativos ha llevado a diferentes enfoques, y la selección del kernel adecuado juega un papel crucial en el rendimiento y la seguridad del sistema en general.
 
+## Diferencia entre Modo Usuario y Modo Kernel
+
 -----------------------------
 |  Usuarios  | Modo Kernel |
 |------------|-------------|
