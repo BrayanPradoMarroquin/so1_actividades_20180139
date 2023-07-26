@@ -1,5 +1,7 @@
 ## Tipos de Kernel y sus diferencias
 
+![Kernel](kernelnu.jpg)
+
 Un **kernel** es la parte central de un sistema operativo que actúa como intermediario entre el hardware y el software, facilitando la comunicación y el manejo de recursos del sistema. Existen diferentes tipos de kernels, cada uno con sus características distintivas. A continuación, se describen los principales tipos de kernels y sus diferencias:
 
 ### 1. Kernel Monolítico
@@ -15,4 +17,13 @@ El **kernel microkernel** adopta un enfoque minimalista al trasladar la mayoría
 ### 3. Kernel Híbrido
 El **kernel híbrido** busca combinar características del kernel monolítico y del microkernel. En este enfoque, algunas funciones cruciales permanecen en el espacio del kernel, mientras que otras se ejecutan en el espacio del usuario como procesos. Esto permite un mejor equilibrio entre el rendimiento y la modularidad. Un ejemplo de un kernel híbrido es el **kernel de Windows**, que proporciona una capa de abstracción llamada **Executive** que maneja ciertos servicios en modo kernel, mientras que otros componentes se ejecutan en modo usuario.
 
+![Kernel Hibrido](Kernel-hibrido.png)
+
 Cada tipo de kernel tiene sus pros y contras, y la elección del tipo depende de los requisitos específicos del sistema operativo y del hardware en el que se ejecutará. La evolución de los sistemas operativos ha llevado a diferentes enfoques, y la selección del kernel adecuado juega un papel crucial en el rendimiento y la seguridad del sistema en general.
+
+-----------------------------
+|  Usuarios  | Modo Kernel |
+|------------|-------------|
+| Es un modo no privilegiado para programas de usuario | Tambien es conocido como como sistema |
+| Cuando realiza un proceso se ejecuta con un acceso limitado a la memoria de CPU. | Cuando realiza un proceso tiene acceso sin restricciones al Hardware. |
+--------------------------------
