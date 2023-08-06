@@ -26,6 +26,6 @@ Cada tipo de kernel tiene sus pros y contras, y la elección del tipo depende de
 -----------------------------
 |  Usuarios  | Modo Kernel |
 |------------|-------------|
-| Es un modo no privilegiado para programas de usuario | Tambien es conocido como como sistema |
+| El modo usuario es un modo de operación en el que los programas de usuario se ejecutan con privilegios limitados.| El modo kernel (también conocido como modo sistema o modo privilegiado) es un nivel de operación en el que el kernel del sistema operativo se ejecuta con privilegios completos y acceso sin restricciones a los recursos del hardware. |
 | Cuando realiza un proceso se ejecuta con un acceso limitado a la memoria de CPU. | Cuando realiza un proceso tiene acceso sin restricciones al Hardware. |
 --------------------------------
