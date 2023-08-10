@@ -29,3 +29,10 @@ Se crearon 2 grupos por medio del comando:
     sudo addgroup grupo2
 ```
 
+Se agrego a los usuarios en cada uno de sus grupos:
+
+![grupos](usuario1%20a%20grupo1.png)
+
+Se verifico que estuviera cada usuario en su grupo respectivo
+
+![grupo1](Captura%20de%20pantalla%20de%202023-08-09%2018-13-24.png)
